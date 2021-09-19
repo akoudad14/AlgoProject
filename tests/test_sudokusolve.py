@@ -18,8 +18,8 @@ class SudokuSolveTestCase(unittest.TestCase):
                "946315728358279614217486935625937841179824563834561279782153496463798152591642387"]
 
     def test_solver(self):
-        for i, problem in enumerate(self.inputs):
-            result = sudoku_solve(problem)
+        for i, input_ in enumerate(self.inputs):
+            result = sudoku_solve(input_)
             self.assertEqual(result, self.outputs[i])
 
 
