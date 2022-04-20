@@ -1,4 +1,4 @@
-# onepoint-test
+# Algo Project
 ## Log Parser (logparse.py)
 
 Accepts a filename on the command line. The file is a Linux-like log file from a system you are debugging. Mixed in among the various statements are messages indicating the state of the device. They look like this:
